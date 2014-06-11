@@ -1,3 +1,9 @@
-Google Homepage
+YouTube Clone
+=============
 
-This project created as part of The Odin Project @ https://www.theodinproject.com
+[The Odin Project](http://www.theodinproject.com)
+-------------------------------------------------
+
+[Project: HTML/CSS](http://www.theodinproject.com/web-development-101/html-css)
+
+Goal: Build a clone of the Google search page

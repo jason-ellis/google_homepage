@@ -1,0 +1,186 @@
+body {
+    margin: 0;
+}
+header {
+    content-width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    margin: 0;
+    vertical-align: middle;
+}
+div.menu {
+    float: right;
+    vertical-align: middle;
+    height: 60px;
+    display: block;
+    display: inline-flex;
+}
+div.header {
+    float: left;
+    text-align: right;
+    vertical-align: middle;
+    display: block;
+    margin: auto 0;
+}
+.header a {
+    text-decoration: none;
+    font: 13px/27px arial, sans-serif;
+    text-align: right;
+    line-height: 24px;
+    width: 30px;
+    color: black;
+    vertical-align: middle;
+}
+.menuImg {
+    background-image: url('https://ssl.gstatic.com/gb/images/v1_b444d4f7.png');
+    background-size: 112px 1828px;
+    opacity: .55;
+}
+.menuImg:hover {
+    opacity: 1;
+}
+#nameDiv a:hover,
+#gmailDiv a:hover,
+#imagesDiv a:hover {
+    text-decoration: underline;
+}
+#nameDiv {
+    min-width: 60px;
+}
+#gmailDiv {
+    width: 34px;
+    padding-left: 15px;
+}
+#imagesDiv {
+    width: 43px;
+    padding: 0 15px;
+}
+#appsDiv {
+    width: 30px;
+    height: 30px;
+    background-position: -69px -854px;
+    padding-right: 15px;
+}
+#appsDiv a {
+    font-size: 27px;
+    vertical-align: top;
+}
+#notifyDiv {
+    width: 45px;
+    background-position: -69px -69px;
+}
+#notifyDiv a {
+    font-size: 27px;
+    vertical-align: top;
+}
+#shareDiv {
+    width: 75px;
+}
+#shareDiv a {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0,0,0, .04);
+    line-height: 30px;
+}
+#shareText {
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0,0,0, .04);
+    text-align: center;
+    border-radius: 2px;
+}
+#shareText:hover {
+    background-color: rgba(0,0,0, 0.1)
+}
+#photoDiv {
+    width: 32px;
+}
+#photoDiv img {
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    vertical-align: middle;
+}
+#content {
+    text-align: center;
+}
+img.logo {
+    padding-top: 112px;
+}
+div.logo {
+    height: 231px;
+    margin-top: 20px;
+}
+table.search_box {
+    margin: 0 auto;
+    height: 30px;
+    width: 570px;
+    border: 1px solid #d9d9d9;
+    border-top-color: #c0c0c0;
+}
+#search {
+    border: none;
+    padding: 0px;
+    margin: -0.0625em 0px 0px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+}
+button {
+    font-family: arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    height: 29px;
+    background-color: rgba(0,0,0, 0.04);
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    color: #666;
+    padding: 0 8px;
+    margin: 11px 6px;
+}
+button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.1);
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+    color: #333;
+    border: 1px solid #c6c6c6;
+}
+#search_button {
+    width: 96px;
+}
+#lucky_button {
+    width: 111px;
+}
+#footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 42px;
+    padding: 0 30px;
+    margin: 0;
+    vertical-align: middle;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 0;
+    line-height: 40px;
+    position:absolute;
+    bottom: 0;
+}
+#footer a {
+    color: #666;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: small;
+    line-height: 40px;
+}
+#footer a:hover {
+    text-decoration: underline;
+
+}
+#footer div{
+    padding: 0 0 0 27px;
+}
+.float_left {
+    float: left;
+}
+.float_right {
+    float: right;
+}
