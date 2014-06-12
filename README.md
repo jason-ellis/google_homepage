@@ -1,4 +1,4 @@
-YouTube Clone
+Google Clone
 =============
 
 [The Odin Project](http://www.theodinproject.com)
